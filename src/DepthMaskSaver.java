@@ -31,7 +31,6 @@ public class DepthMaskSaver {
     }
 
     static SimpleUniverse getUniverse(Canvas3D c) {
-        // = new Canvas3D(config,true);
         c.getScreen3D().setSize(350, 350);
         c.getScreen3D().setPhysicalScreenWidth(0.254 / 90.0 * 400);
         c.getScreen3D().setPhysicalScreenHeight(0.254 / 90.0 * 400);
